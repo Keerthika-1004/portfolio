@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Keerthika S — Java Full Stack Developer. Portfolio, skills, experience, and resume."
+    />
+    <title>Keerthika S | Java Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="hero" id="top">
+      <div class="hero__bar">
+        <div class="hero__bar-inner">
+          <nav class="nav" aria-label="Primary">
+            <a href="#about" class="nav__link" data-nav="about">
+              <span class="nav__ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20v-1a4 4 0 014-4h8a4 4 0 014 4v1"/></svg>
+              </span>
+              <span>About Me</span>
+            </a>
+            <a href="#skills" class="nav__link" data-nav="skills">
+              <span class="nav__ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </span>
+              <span>Skills</span>
+            </a>
+            <a href="#projects" class="nav__link" data-nav="projects">
+              <span class="nav__ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/><path d="M10 13h8"/><path d="M10 17h4"/></svg>
+              </span>
+              <span>Projects</span>
+            </a>
+            <a href="#experience" class="nav__link" data-nav="experience">
+              <span class="nav__ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>
+              </span>
+              <span>Experience</span>
+            </a>
+            <a href="#contact" class="nav__link" data-nav="contact">
+              <span class="nav__ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+              </span>
+              <span>Let&apos;s Talk</span>
+            </a>
+          </nav>
+          <button type="button" id="theme-toggle" class="theme-toggle hero__theme" aria-label="Switch to dark theme">
+            🌙
+          </button>
+        </div>
+      </div>
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Hello, I&apos;m</p>
+        <h1 class="hero__title">
+          <span class="hero__name">Keerthika S</span>
+          <span class="hero__typeblock" aria-live="polite">
+            <span
+              id="typewriter"
+              class="hero__typewriter"
+              data-words='["Java Full Stack Developer","Spring Boot • Microservices • Keycloak","Clean Code • Performance"]'
+              >Java Full Stack Developer</span
+            >
+          </span>
+        </h1>
+        <p class="hero__intro">
+          Software engineer focused on scalable backends, secure APIs, and shipping with confidence.
+        </p>
+        <ul class="hero__highlights" aria-label="Quick highlights">
+          <li><span class="hero__check" aria-hidden="true">✓</span> 3+ years shipping production backend &amp; full-stack features</li>
+          <li><span class="hero__check" aria-hidden="true">✓</span> Microservices &amp; Keycloak IAM across Dev → production</li>
+          <li><span class="hero__check" aria-hidden="true">✓</span> End-to-end ownership — design, deploy, validate</li>
+        </ul>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="resume.pdf" download="Keerthika_S_Resume.pdf"
+            >Download Resume</a
+          >
+          <a class="btn btn--ghost" href="resume.pdf" target="_blank" rel="noopener noreferrer"
+            >View resume</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="about" class="section">
+        <h2 class="section__heading">About Me</h2>
+        <p class="about__lead">
+          I am a passionate Java Full Stack Developer with strong expertise in building scalable, secure,
+          and user-friendly web applications. My skills span across frontend, backend, and database
+          technologies, allowing me to deliver complete end-to-end solutions. With a solid foundation in
+          Core Java, OOP, and modern web frameworks, I focus on clean code, problem-solving, and
+          performance-driven development.
+        </p>
+      </section>
+
+      <section id="skills" class="section section--skills reveal" aria-labelledby="skills-heading">
+        <div class="container container--wide">
+          <h2 id="skills-heading" class="section__heading section__heading--on-dark">Skills</h2>
+          <div class="tech-strip tech-strip--core">
+            <p class="tech-strip__heading">Core stack</p>
+            <p class="tech-strip__subtitle">Where I spend most of my time</p>
+            <div class="tech-strip__grid tech-strip__grid--core">
+              <div class="tech-strip__item">
+                <div class="tech-strip__tile">
+                  <img class="tech-strip__img" src="assets/java.svg" alt="" width="40" height="40" loading="lazy" decoding="async" />
+                </div>
+                <span class="tech-strip__label">Java</span>
+              </div>
+              <div class="tech-strip__item">
+                <div class="tech-strip__tile">
+                  <img class="tech-strip__img" src="assets/springboot.svg" alt="" width="40" height="40" loading="lazy" decoding="async" />
+                </div>
+                <span class="tech-strip__label">Spring Boot</span>
+              </div>
+              <div class="tech-strip__item">
+                <div class="tech-strip__tile">
+                  <img class="tech-strip__img" src="assets/react.svg" alt="" width="40" height="40" loading="lazy" decoding="async" />
+                </div>
+                <span class="tech-strip__label">React</span>
+              </div>
+              <div class="tech-strip__item">
+                <div class="tech-strip__tile">
+                  <img class="tech-strip__img" src="assets/postgresql.svg" alt="" width="40" height="40" loading="lazy" decoding="async" />
+                </div>
+                <span class="tech-strip__label">PostgreSQL</span>
+              </div>
+              <div class="tech-strip__item">
+                <div class="tech-strip__tile">
+                  <img class="tech-strip__img" src="assets/docker.svg" alt="" width="40" height="40" loading="lazy" decoding="async" />
+                </div>
+                <span class="tech-strip__label">Docker</span>
+              </div>
+              <div class="tech-strip__item">
+                <div class="tech-strip__tile">
+                  <img class="tech-strip__img" src="assets/keycloak.svg" alt="" width="40" height="40" loading="lazy" decoding="async" />
+                </div>
+                <span class="tech-strip__label">Keycloak</span>
+              </div>
+            </div>
+          </div>
+          <div class="tech-strip tech-strip--support">
+            <p class="tech-strip__heading">Supporting tools</p>
+            <p class="tech-strip__subtitle">Delivery, quality &amp; cloud</p>
+            <div class="tech-strip__grid tech-strip__grid--compact">
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/git.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">Git</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/github.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">GitHub</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/kubernetes.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">Kubernetes</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/apachemaven.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">Maven</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/swagger.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">Swagger</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/postman.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">Postman</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/jenkins.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">Jenkins</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/googlecloud.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">GCP</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/mysql.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">MySQL</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/html5.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">HTML5</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/css3.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">CSS3</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/javascript.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">JavaScript</span></div>
+              <div class="tech-strip__item"><div class="tech-strip__tile tech-strip__tile--sm"><img class="tech-strip__img tech-strip__img--sm" src="https://cdn.jsdelivr.net/npm/simple-icons@11.6.0/icons/sonarqube.svg" alt="" loading="lazy" decoding="async" /></div><span class="tech-strip__label">SonarQube</span></div>
+            </div>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card" data-skill-card>
+              <h3 class="skill-card__title">Frontend</h3>
+              <ul class="skill-card__list">
+                <li class="skill-row" data-pct="92">
+                  <div class="skill-row__meta"><span class="skill-row__name">HTML5</span><span class="skill-row__pct">92%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="88">
+                  <div class="skill-row__meta"><span class="skill-row__name">CSS3</span><span class="skill-row__pct">88%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="85">
+                  <div class="skill-row__meta"><span class="skill-row__name">JavaScript</span><span class="skill-row__pct">85%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="82">
+                  <div class="skill-row__meta"><span class="skill-row__name">React.js</span><span class="skill-row__pct">82%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+              </ul>
+            </div>
+            <div class="skill-card" data-skill-card>
+              <h3 class="skill-card__title">Backend</h3>
+              <ul class="skill-card__list">
+                <li class="skill-row" data-pct="90">
+                  <div class="skill-row__meta"><span class="skill-row__name">Java</span><span class="skill-row__pct">90%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="90">
+                  <div class="skill-row__meta"><span class="skill-row__name">Spring Boot</span><span class="skill-row__pct">90%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="95">
+                  <div class="skill-row__meta"><span class="skill-row__name">Keycloak</span><span class="skill-row__pct">95%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="88">
+                  <div class="skill-row__meta"><span class="skill-row__name">REST &amp; Microservices</span><span class="skill-row__pct">88%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+              </ul>
+            </div>
+            <div class="skill-card" data-skill-card>
+              <h3 class="skill-card__title">Database</h3>
+              <ul class="skill-card__list">
+                <li class="skill-row" data-pct="85">
+                  <div class="skill-row__meta"><span class="skill-row__name">MySQL / MariaDB</span><span class="skill-row__pct">85%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="83">
+                  <div class="skill-row__meta"><span class="skill-row__name">PostgreSQL</span><span class="skill-row__pct">83%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="86">
+                  <div class="skill-row__meta"><span class="skill-row__name">SQL &amp; Aurora</span><span class="skill-row__pct">86%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+              </ul>
+            </div>
+            <div class="skill-card" data-skill-card>
+              <h3 class="skill-card__title">Tools &amp; DevOps</h3>
+              <ul class="skill-card__list">
+                <li class="skill-row" data-pct="95">
+                  <div class="skill-row__meta"><span class="skill-row__name">Git &amp; GitHub</span><span class="skill-row__pct">95%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="88">
+                  <div class="skill-row__meta"><span class="skill-row__name">Maven</span><span class="skill-row__pct">88%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="90">
+                  <div class="skill-row__meta"><span class="skill-row__name">Postman &amp; Swagger</span><span class="skill-row__pct">90%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="78">
+                  <div class="skill-row__meta"><span class="skill-row__name">Docker / K8s / Jenkins</span><span class="skill-row__pct">78%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+              </ul>
+            </div>
+            <div class="skill-card skill-card--wide" data-skill-card>
+              <h3 class="skill-card__title">Concepts &amp; Practices</h3>
+              <ul class="skill-card__list">
+                <li class="skill-row" data-pct="88">
+                  <div class="skill-row__meta"><span class="skill-row__name">OOP, Data Structures</span><span class="skill-row__pct">88%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="88">
+                  <div class="skill-row__meta"><span class="skill-row__name">REST APIs &amp; IAM patterns</span><span class="skill-row__pct">88%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+                <li class="skill-row" data-pct="88">
+                  <div class="skill-row__meta"><span class="skill-row__name">Agile / Scrum delivery</span><span class="skill-row__pct">88%</span></div>
+                  <div class="skill-row__track" role="presentation"><span class="skill-row__fill"></span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section--muted reveal">
+        <div class="container">
+          <h2 class="section__heading">Projects</h2>
+          <div class="filters" role="tablist" aria-label="Project filters">
+            <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button type="button" class="filter-btn" data-filter="java" role="tab" aria-selected="false">Java</button>
+            <button type="button" class="filter-btn" data-filter="spring" role="tab" aria-selected="false">Spring Boot</button>
+            <button type="button" class="filter-btn" data-filter="react" role="tab" aria-selected="false">React</button>
+            <button type="button" class="filter-btn" data-filter="ai" role="tab" aria-selected="false">Hackathon</button>
+          </div>
+          <div class="grid project-grid">
+            <article class="card project-card" data-tags="java spring react" tabindex="0">
+              <p class="project-card__badge">Office</p>
+              <h3 class="card__title">Co-lending platform (Apollo)</h3>
+              <div class="project-card__facts">
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Problem</strong>
+                  <p class="project-card__v">Financial partners needed secure onboarding and consistent access across a regulated co-lending stack.</p>
+                </div>
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Built</strong>
+                  <p class="project-card__v">Scalable microservices behind an API gateway with Keycloak IAM; React modules + tracing &amp; Aurora-backed services.</p>
+                </div>
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Impact</strong>
+                  <p class="project-card__v">Repeatable partner onboarding, clearer RBAC, and production-safe rollouts across QA → prod.</p>
+                </div>
+              </div>
+              <ul class="tags" aria-label="Technologies">
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>React</li>
+                <li>Keycloak</li>
+              </ul>
+              <button type="button" class="btn-project-detail" data-detail-template="detail-apollo">View details</button>
+            </article>
+            <article class="card project-card" data-tags="java spring" tabindex="0">
+              <p class="project-card__badge">Office</p>
+              <h3 class="card__title">Automated user data rectification</h3>
+              <div class="project-card__facts">
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Problem</strong>
+                  <p class="project-card__v">Manual telecom customer-data fixes were slow, error-prone, and didn&apos;t scale.</p>
+                </div>
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Built</strong>
+                  <p class="project-card__v">Spring Boot automation bridging Salesforce &amp; Zuora with regex-driven discrepancy detection.</p>
+                </div>
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Impact</strong>
+                  <p class="project-card__v">Measured reduction in manual remediation effort and faster turnaround on fallout queues.</p>
+                </div>
+              </div>
+              <ul class="tags" aria-label="Technologies">
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>Salesforce</li>
+                <li>Zuora</li>
+              </ul>
+              <button type="button" class="btn-project-detail" data-detail-template="detail-zuora">View details</button>
+            </article>
+            <article class="card project-card" data-tags="java spring" tabindex="0">
+              <p class="project-card__badge">College</p>
+              <h3 class="card__title">Propay</h3>
+              <div class="project-card__facts">
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Problem</strong>
+                  <p class="project-card__v">Demonstrate end-to-end delivery with a realistic payments-style workflow.</p>
+                </div>
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Built</strong>
+                  <p class="project-card__v">Spring Boot + MySQL backend with Angular UI and HTML/CSS/JS polish.</p>
+                </div>
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Impact</strong>
+                  <p class="project-card__v">Full-stack practice integrating persistence, APIs, and UI in one cohesive application.</p>
+                </div>
+              </div>
+              <ul class="tags" aria-label="Technologies">
+                <li>Spring Boot</li>
+                <li>MySQL</li>
+                <li>Angular</li>
+                <li>Java</li>
+              </ul>
+              <button type="button" class="btn-project-detail" data-detail-template="detail-propay">View details</button>
+            </article>
+            <article class="card project-card" data-tags="ai" tabindex="0">
+              <p class="project-card__badge">College</p>
+              <h3 class="card__title">Hackathon — Ingenious Connect Season 10</h3>
+              <div class="project-card__facts">
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Problem</strong>
+                  <p class="project-card__v">Explore Gen AI patterns under time-boxed innovation constraints.</p>
+                </div>
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Built</strong>
+                  <p class="project-card__v">Concepts around avatar/chatbot experiences powered by modern AI APIs.</p>
+                </div>
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Impact</strong>
+                  <p class="project-card__v">Sharpened applied AI thinking and rapid prototyping with peers.</p>
+                </div>
+              </div>
+              <ul class="tags" aria-label="Technologies">
+                <li>Gen AI</li>
+                <li>Chatbot</li>
+                <li>Innovation</li>
+              </ul>
+              <button type="button" class="btn-project-detail" data-detail-template="detail-hackathon">View details</button>
+            </article>
+            <article class="card project-card" data-tags="" tabindex="0">
+              <p class="project-card__badge">College</p>
+              <h3 class="card__title">IoT projects</h3>
+              <div class="project-card__facts">
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Problem</strong>
+                  <p class="project-card__v">Hands-on hardware challenges — safety &amp; sustainability themes.</p>
+                </div>
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Built</strong>
+                  <p class="project-card__v">Alcohol detection using GSM; water conservation prototype.</p>
+                </div>
+                <div class="project-card__fact">
+                  <strong class="project-card__k">Impact</strong>
+                  <p class="project-card__v">Embedded fundamentals + practical integration beyond pure web development.</p>
+                </div>
+              </div>
+              <ul class="tags" aria-label="Technologies">
+                <li>IoT</li>
+                <li>GSM</li>
+                <li>Embedded</li>
+              </ul>
+              <button type="button" class="btn-project-detail" data-detail-template="detail-iot">View details</button>
+            </article>
+          </div>
+          <dialog class="project-modal" id="project-modal" aria-labelledby="project-modal-title">
+            <div class="project-modal__surface">
+              <button type="button" class="project-modal__close" id="project-modal-close" aria-label="Close">×</button>
+              <h3 id="project-modal-title"></h3>
+              <div id="project-modal-body" class="project-modal__body"></div>
+            </div>
+          </dialog>
+
+          <template id="detail-apollo">
+            <div class="detail-rich">
+              <p><strong>Deep dive — Apollo</strong></p>
+              <p>Scaled backend services for a co-lending NBFI platform where partners required isolated IAM, audited access paths, and resilient routing.</p>
+              <ul>
+                <li>Led Keycloak integration across Apollo, Apollo-Core, and Gateway — realms &amp; RBAC from QA through Pre-Prod.</li>
+                <li>Gateway → microservice routing with circuit breakers; microservices refactor with shared security/DTO modules.</li>
+                <li>OpenTelemetry &amp; Jaeger tracing; Aurora migration with zero data-loss mindset.</li>
+                <li>React-led UI modules for workflows &amp; partner experiences on top of REST APIs.</li>
+              </ul>
+            </div>
+          </template>
+          <template id="detail-zuora">
+            <div class="detail-rich">
+              <p><strong>Deep dive — Telecom data rectification</strong></p>
+              <p>Automation-first pipeline replacing fragmented manual fixes with repeatable Spring Boot services.</p>
+              <ul>
+                <li>Salesforce + Zuora orchestration for customer corrections.</li>
+                <li>Regex-driven detection enabling fallout analytics at scale.</li>
+                <li>Hardened APIs with Spring Security, Swagger, structured logging, JUnit.</li>
+              </ul>
+            </div>
+          </template>
+          <template id="detail-propay">
+            <div class="detail-rich">
+              <p><strong>Deep dive — Propay</strong></p>
+              <p>College-era full-stack build emphasizing layered architecture and persistence design.</p>
+              <ul>
+                <li>Angular SPA consuming Spring Boot APIs.</li>
+                <li>MySQL modeling &amp; integration testing fundamentals.</li>
+              </ul>
+            </div>
+          </template>
+          <template id="detail-hackathon">
+            <div class="detail-rich">
+              <p><strong>Deep dive — Hackathon</strong></p>
+              <p>Ingenious Connect Season 10 — experimentation with Gen AI UX patterns including avatar-style chat experiences.</p>
+            </div>
+          </template>
+          <template id="detail-iot">
+            <div class="detail-rich">
+              <p><strong>Deep dive — IoT</strong></p>
+              <p>GSM-based alcohol detection module and a water conservation system — embedded constraints, sensors, and practical wiring.</p>
+            </div>
+          </template>
+        </div>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <h2 class="section__heading">Experience</h2>
+        <div class="timeline">
+          <article class="timeline__item">
+            <h3 class="timeline__title">Software Engineer (Full Stack Developer)</h3>
+            <p class="timeline__company">Vivriti Capital Pvt Ltd · Nov 2024 – Present</p>
+            <p class="timeline__meta">Apollo — Co-lending platform for non-banking financial services</p>
+            <ul class="timeline__bullets timeline__bullets--featured">
+              <li>
+                Developed frontend modules for the Apollo platform using React, building responsive UI
+                components and integrating RESTful APIs for financial workflows, product configurations,
+                and partner modules.
+              </li>
+              <li>
+                Architected and led end-to-end Keycloak integration across Apollo, Apollo-Core, and
+                Apollo Gateway — realms for QA, UAT, and Pre-Prod; RBAC, authentication, and authorization
+                for all platform roles.
+              </li>
+              <li>
+                Designed API Gateway → microservice routing with circuit breakers for resilience and fault
+                tolerance.
+              </li>
+            </ul>
+            <p class="timeline__more-label">Also delivered</p>
+            <ul class="timeline__bullets timeline__bullets--compact">
+              <li><span class="timeline__emoji" aria-hidden="true">🧩</span><strong>Microservices refactor</strong> — shared security / entities across 5 services.</li>
+              <li><span class="timeline__emoji" aria-hidden="true">🔑</span><strong>Token lifecycle</strong> — token exchange for sessions &amp; access cadence.</li>
+              <li><span class="timeline__emoji" aria-hidden="true">📡</span><strong>Tracing</strong> — OpenTelemetry &amp; Jaeger across services.</li>
+              <li><span class="timeline__emoji" aria-hidden="true">🤝</span><strong>Partners</strong> — Keycloak onboarding for multiple partners (UAT → prod).</li>
+              <li><span class="timeline__emoji" aria-hidden="true">⚡</span><strong>Data layer</strong> — Spring Cache, MariaDB + Aurora optimizations &amp; migration.</li>
+              <li><span class="timeline__emoji" aria-hidden="true">📊</span><strong>Quality</strong> — JMeter, Actuator, VAPT/Sonar remediation, Boot upgrades.</li>
+              <li><span class="timeline__emoji" aria-hidden="true">📦</span><strong>Product module</strong> — configs for limits, tenure, toggles.</li>
+              <li><span class="timeline__emoji" aria-hidden="true">🚀</span><strong>Delivery</strong> — deployments Dev→Prod; Scrum Master-style coordination.</li>
+              <li><span class="timeline__emoji" aria-hidden="true">🏗️</span><strong>System Design</strong> — HLD completed; shared libraries architected and executed.</li>
+            </ul>
+          </article>
+          <article class="timeline__item">
+            <h3 class="timeline__title">Associate Software Engineer</h3>
+            <p class="timeline__company">Prodapt Solutions Pvt Ltd · Aug 2022 – Oct 2024</p>
+            <p class="timeline__meta">
+              Lumen Telecom account · Java 8 • Spring Boot • Spring Security • Salesforce • Zuora •
+              Swagger
+            </p>
+            <ul class="timeline__bullets timeline__bullets--featured">
+              <li>
+                Engineered automated user data rectification (Salesforce + Zuora) — ~70% less manual effort
+                and ~50% faster processing.
+              </li>
+              <li>
+                Regex-based address discrepancy detection in Spring Boot for telecom customer data fallout
+                analysis.
+              </li>
+              <li>
+                RESTful APIs with Spring Security, Swagger, and structured logging for traceability.
+              </li>
+            </ul>
+            <p class="timeline__more-label">Also delivered</p>
+            <ul class="timeline__bullets timeline__bullets--compact">
+              <li><span class="timeline__emoji" aria-hidden="true">🧪</span><strong>Quality</strong> — JUnit suites &amp; SonarLint discipline.</li>
+              <li><span class="timeline__emoji" aria-hidden="true">🔬</span><strong>R&amp;D</strong> — PoCs adopted by delivery.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+        <div class="contact-section__inner contact-layout">
+          <header class="contact-hero">
+            <p class="contact-hero__ghost" aria-hidden="true">CONTACT</p>
+            <h2 id="contact-heading" class="contact-section__heading">Let&apos;s Talk</h2>
+            <p class="contact-lead">
+              Have an opportunity or collaboration in mind? Send a message—I typically reply within a few business days.
+            </p>
+          </header>
+
+          <div class="contact-split">
+            <aside class="contact-aside" aria-label="Direct contact">
+              <div class="contact-card contact-card--aside">
+                <h3 class="contact-card__subtitle contact-find-heading">Find me</h3>
+                <ul class="contact-card__list">
+                  <li class="contact-card__item">
+                    <span class="contact-card__icon contact-card__icon--email" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                        <path
+                          d="M4 6h16v12H4V6zm0 0l8 6 8-6"
+                          stroke="currentColor"
+                          stroke-width="1.75"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <div class="contact-card__body">
+                      <span class="contact-card__label">Email</span>
+                      <a class="contact-card__link" href="mailto:keerthikasundhar103@gmail.com"
+                        >keerthikasundhar103@gmail.com</a
+                      >
+                    </div>
+                  </li>
+                  <li class="contact-card__item">
+                    <span class="contact-card__icon contact-card__icon--phone" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                        <path
+                          d="M6.5 3h4l2 6-3 2c1 3 4 6 7 7l2-3 6 2v4c0 1.5-1.3 3-3 3C10.4 22 3 14.6 3 8.5 3 6.8 4.5 5.5 6 5.5z"
+                          stroke="currentColor"
+                          stroke-width="1.75"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <div class="contact-card__body">
+                      <span class="contact-card__label">Phone</span>
+                      <a class="contact-card__link" href="tel:+917358551061">+91 7358551061</a>
+                    </div>
+                  </li>
+                  <li class="contact-card__item">
+                    <span class="contact-card__icon contact-card__icon--linkedin" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                        <path
+                          d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 002.063-2.065 2.064 2.064 0 10-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                        />
+                      </svg>
+                    </span>
+                    <div class="contact-card__body">
+                      <span class="contact-card__label">LinkedIn</span>
+                      <a
+                        class="contact-card__link"
+                        href="https://www.linkedin.com/in/keerthika-sundaramoorthi/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >linkedin.com/in/Keerthika</a
+                      >
+                    </div>
+                  </li>
+                  <li class="contact-card__item">
+                    <span class="contact-card__icon contact-card__icon--github" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                        <path
+                          d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 3.27 8.38 7.74 9.71.57.09.74-.26.74-.54 0-.27 0-.95 0-1.86-3.06.62-3.71-1.38-3.71-1.38-.63-1.56-1.54-1.98-1.54-1.98-1.27-.82.09-.81.09-.81 1.4.09 2.13 1.39 2.13 1.39 1.24 2.06 3.26 1.47 4.06 1.12.13-.88.49-1.47.89-1.81-2.43-.29-5-1.09-5-5.13 0-1.14.51-2.05 1.36-2.78-.14-.3-.59-1.52.13-3.18 0 0 1.12-.35 3.66 1.34a12.5 12.5 0 016.86 0c2.54-1.69 3.66-1.34 3.66-1.34.72 1.66.27 2.88.13 3.18.85.73 1.36 1.64 1.36 2.78 0 4.05-2.58 4.84-5.02 5.12.39.32.74.97.74 1.96 0 1.41-.01 2.54-.01 2.88 0 .28.18.64.75.54A9.95 9.95 0 0022 12.26C22 6.58 17.52 2 12 2z"
+                        />
+                      </svg>
+                    </span>
+                    <div class="contact-card__body">
+                      <span class="contact-card__label">GitHub</span>
+                      <a
+                        class="contact-card__link"
+                        href="https://github.com/Keerthika-1004"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >github.com/Keerthika</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+
+            <div class="contact-form-panel">
+              <form
+                class="contact-form"
+                action="https://formsubmit.co/keerthikasundhar103@gmail.com"
+                method="POST"
+              >
+                <input type="hidden" name="_subject" value="Portfolio — Lets Talk inquiry" />
+                <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="text" name="_gotcha" class="contact-form__honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+                <div class="contact-form__row contact-form__row--split">
+                  <label class="contact-form__field">
+                    <span class="contact-form__label">Your name</span>
+                    <input type="text" name="name" required maxlength="120" autocomplete="name" placeholder="Your name" />
+                  </label>
+                  <label class="contact-form__field">
+                    <span class="contact-form__label">Your email</span>
+                    <input type="email" name="email" required maxlength="120" autocomplete="email" placeholder="you@company.com" />
+                  </label>
+                </div>
+
+                <label class="contact-form__field">
+                  <span class="contact-form__label">Subject</span>
+                  <input type="text" name="subject" maxlength="180" placeholder="Role title or topic (optional)" />
+                </label>
+
+                <label class="contact-form__field">
+                  <span class="contact-form__label">Message</span>
+                  <textarea name="message" rows="5" required maxlength="4000" placeholder="Tell me about the role, timeline, or how I can help."></textarea>
+                </label>
+
+                <button type="submit" class="contact-form__submit btn-contact-send">Send message</button>
+                <p class="contact-form__note">
+                  Delivered via FormSubmit. On first use, check your inbox to confirm the forwarding address once.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© Keerthika S · Chennai, India · +91 7358551061</p>
+    </footer>
+
+    <!-- Kiki chat widget -->
+    <div class="kiki" id="kiki-widget" data-state="collapsed">
+      <button
+        type="button"
+        class="kiki__launcher"
+        id="kiki-launcher"
+        aria-expanded="false"
+        aria-controls="kiki-panel"
+        title="Open Kiki chat"
+      >
+        <span class="kiki__launcher-icon" aria-hidden="true">🤖</span>
+        <span class="visually-hidden">Open chat — Kiki</span>
+      </button>
+      <div
+        class="kiki__panel"
+        id="kiki-panel"
+        role="dialog"
+        aria-labelledby="kiki-heading"
+        aria-modal="false"
+        hidden
+      >
+        <div class="kiki__header">
+          <span id="kiki-heading" class="kiki__title">Kiki</span>
+          <button type="button" class="kiki__close" id="kiki-close" aria-label="Close chat">×</button>
+        </div>
+        <div class="kiki__messages" id="kiki-messages" aria-live="polite"></div>
+        <div class="kiki__typing" id="kiki-typing" hidden aria-hidden="true">
+          <span class="kiki__typing-dot"></span>
+          <span class="kiki__typing-dot"></span>
+          <span class="kiki__typing-dot"></span>
+          <span class="kiki__typing-text">Kiki is typing… ✨</span>
+        </div>
+        <div class="kiki__quick" id="kiki-quick"></div>
+        <form class="kiki__form" id="kiki-form">
+          <label class="visually-hidden" for="kiki-input">Message</label>
+          <input
+            type="text"
+            id="kiki-input"
+            class="kiki__input"
+            placeholder="Type a message…"
+            autocomplete="off"
+            maxlength="280"
+          />
+          <button type="submit" class="kiki__send">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js" defer charset="utf-8"></script>
+  </body>
+</html>
